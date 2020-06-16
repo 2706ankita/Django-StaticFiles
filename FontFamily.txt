@@ -1,0 +1,6 @@
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;

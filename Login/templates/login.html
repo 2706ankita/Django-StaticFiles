@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'mainCss.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat&family=MuseoModerno:wght@500&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='imageBox'>
+        <img src="{% static 'loginBack.jpg' %}" alt="Login page background image">
+        <div class='loginBox'>
+            <h4>SIGN-IN</h4>
+            <form>
+                <p>Email/Username</p>
+                <input type="text" class="inputText">
+                <p>Password</p>
+                <input type="password" class="inputText">
+                <br><br><br>
+                <button type="submit" id="signinButton" onclick="signButton()">Sign In</button>
+            </form>
+            <br><br><br>
+            <p>New User? <a href="" onclick="regButton()"><strong>Register</strong></a></p>
+        </div>
+    </div>
+    <script src="{% static 'mainJs.js' %}"></script>
+</body>
+
+</html>
